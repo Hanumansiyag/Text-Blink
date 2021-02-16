@@ -1,0 +1,26 @@
+    .badge{
+      animation: blink 1s linear infinite;
+      color:red;
+      font-size: 80px;  
+      text-align: justify;
+      text-decoration: line-through;
+      text-shadow: 2px 2px 5px white;
+      font-family: "Times Ne1oman", Times, serif;
+    }
+    @keyframes blink{
+      0%{opacity: 0;}
+      50%{opacity: .5;}
+      100%{opacity: 1;}
+    }
+    body{
+      background-image: url(1.jpg);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .style{
+      padding-top: 8%;
+      padding-right: 40%; 
+      transform: rotate(-20deg);
+    }
